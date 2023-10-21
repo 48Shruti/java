@@ -11,15 +11,13 @@ public class patterns {
         // }
 
         // pattern 2
-        int i, j;
-        for (i = 0; i < 1; i++) {
-            for (j = 0; j < 4; j++) {
-                System.out.print("*");
-            }
-            System.out.println();
+        int i;
+        for (i = 0; i <= 5; i++) {
+            // for (j = 0; j <= 5; j++) {
+            // System.out.println();
+            // }
+            System.out.println("*");
         }
-        for (int n = 1; n < 2; n++) {
-            System.out.print("*");
-        }
+
     }
 }

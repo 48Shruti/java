@@ -49,6 +49,5 @@ public class variable {
         System.out.println(breath);
         float perimeter = 2 * length * breath;
         System.out.println(perimeter);
-
     }
 }
