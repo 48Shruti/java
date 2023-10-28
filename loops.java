@@ -30,14 +30,25 @@ public class loops {
         // System.out.print(temp);
 
         // print the number of table input by user
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter input");
-        int input = sc.nextInt();
-        int multi = 1;
-        for (int i = 1; i <= 10; i++) {
-            multi = input * i;
-            System.out.println(multi);
-        }
+        // Scanner sc = new Scanner(System.in);
+        // System.out.println("Enter input");
+        // int input = sc.nextInt();
+        // int multi = 1;
+        // for (int i = 1; i <= 10; i++) {
+        // multi = input * i;
+        // System.out.println(multi);
+        // }
 
+        // with while loop
+        Scanner sc1 = new Scanner(System.in);
+        System.out.println("Enter input");
+        int input1 = sc1.nextInt();
+        int multi1 = 1;
+        int i = 1;
+        while (i <= 10) {
+            i++;
+            multi1 = input1 * i;
+            System.out.println(multi1);
+        }
     }
 }
