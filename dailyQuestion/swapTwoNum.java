@@ -21,5 +21,6 @@ public class swapTwoNum {
         int int2 = sc.nextInt();
         swapTwoNum swap1 = new swapTwoNum();
         swap1.swap(int1, int2);
+        sc.close();
     }
 }

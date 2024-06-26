@@ -14,5 +14,6 @@ public class evenOdd {
         } else {
             System.out.println("odd");
         }
+        sc.close();
     }
 }
