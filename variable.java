@@ -1,4 +1,4 @@
-import java.lang.reflect.Array;
+
 import java.util.Scanner;
 
 public class variable {
@@ -35,6 +35,7 @@ public class variable {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter input");
         float input = sc.nextFloat();
+        sc.close();
         System.out.println("input = " + input);
         float area = (pi * input * input);
         System.out.println("area is " + area + "m");
@@ -43,11 +44,15 @@ public class variable {
         System.out.println("length " + len);
         float length = len.nextFloat();
         System.out.println(length);
+        len.close();
         Scanner brth = new Scanner(System.in);
         System.out.println("breath " + brth);
         float breath = brth.nextFloat();
         System.out.println(breath);
+        brth.close();
         float perimeter = 2 * length * breath;
         System.out.println(perimeter);
+
     }
+
 }

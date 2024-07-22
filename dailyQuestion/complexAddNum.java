@@ -1,11 +1,16 @@
 package dailyQuestion;
 
 public class complexAddNum {
-    int a = 0;
-    int b = 0;
+    int real;
+    int imagine;
 
-    public void complex(int a, int b) {
-        this.a = a;
-        this.b = b;
+    complexAddNum(int r, int i) {
+        this.real = r;
+        this.imagine = i;
     }
+
+    public void print() {
+        System.out.println(this.real + "i" + this.imagine);
+    }
+
 }

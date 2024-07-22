@@ -43,6 +43,7 @@ public class loops {
         Scanner sc1 = new Scanner(System.in);
         System.out.println("Enter input");
         int input1 = sc1.nextInt();
+        sc1.close();
         int multi1 = 1;
         int i = 1;
         while (i <= 10) {
